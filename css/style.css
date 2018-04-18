@@ -9,10 +9,33 @@
     padding-left: 25px;
 }
 
-h3, h4 {
+h2 {
+    font-size: 200%;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 150%;
+    margin-top: 15px;
+}
+
+h2, h3, h4 {
     color: rgb(78, 132, 233);
 }
 
 h4 {
     font-style: italic;
+}
+
+.alert {
+    margin: 25px;
+    padding: 15px;
+}
+
+.alert-secondary {
+    background-color: #eee;
+}
+
+.alert-info {
+    background-color: lightblue;
 }
